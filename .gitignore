@@ -1,5 +1,5 @@
-flownet
-data/*
+# flownet
+# data/*
 !data/.gitkeep
 results/*
 !results/.gitkeep
