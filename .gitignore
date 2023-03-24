@@ -1,5 +1,6 @@
 # flownet
 # data/*
+data/FlowNet2_checkpoint.pth.tar
 !data/.gitkeep
 results/*
 !results/.gitkeep
