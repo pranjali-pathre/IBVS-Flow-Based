@@ -11,3 +11,4 @@ To run:
 * `mv deepMPCVS flownet`
 * `conda activate deepmpcvs`
 * `python run_dfvs.py ./data/skokloster-castle`
+* `./make_video.sh ./data/skokloster-castle && ./plot.py`
