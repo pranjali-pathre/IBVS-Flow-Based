@@ -1,6 +1,13 @@
 install habitat and habitat-sim as per the github directions.
 
-example scene dataset: http://dl.fbaipublicfiles.com/habitat/mp3d_example.zip 
-
 get nvidia-flownet2-pytorch repo in flownet folder @ 2e9e010
 and run ./install.sh there
+
+To run:
+* `git clone https://github.com/pranjali-pathre/IBVS-Flow-Based/`
+* `cd IBVS-Flow-Based`
+* `scp -r pranjali@10.1.98.140:/home/pranjali/Documents/VisualServoing/FlowNet2_checkpoint.pth.tar ./data/`
+* `git clone https://github.com/pranjali-pathre/deepMPCVS`
+* `mv deepMPCVS flownet`
+* `conda activate deepmpcvs`
+* `python run_dfvs.py ./data/skokloster-castle`
