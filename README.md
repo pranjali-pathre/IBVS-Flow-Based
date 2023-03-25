@@ -12,4 +12,4 @@ To run:
 * `conda activate deepmpcvs`
 * `scp pranjali@10.1.98.140:/home/pranjali/Documents/VisualServoing/data_dfvs/data/skokloster-castle/des.png ./`
 * `python run_dfvs.py ./data/skokloster-castle`
-* `./make_video.sh ./data/skokloster-castle && ./plot.py`
+* `./make_video.sh ./data/skokloster-castle && ./plot.py ./data/skokloster-castle` 
