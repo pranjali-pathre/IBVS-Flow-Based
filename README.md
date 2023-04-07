@@ -9,7 +9,10 @@ To run:
 * `scp -r pranjali@10.1.98.140:/home/pranjali/Documents/VisualServoing/FlowNet2_checkpoint.pth.tar ./data/`
 * `git clone https://github.com/pranjali-pathre/deepMPCVS`
 * `mv deepMPCVS flownet`
+* `mv flownet/deepMPCVS/ ../`
+* `rm -rf flownet`
+* `mv deepMPCVS flownet`
 * `conda activate deepmpcvs`
-* `scp pranjali@10.1.98.140:/home/pranjali/Documents/VisualServoing/data_dfvs/data/skokloster-castle/des.png ./`
+* `scp pranjali@10.1.98.140:/home/pranjali/Documents/VisualServoing/data_dfvs/data/skokloster-castle/resized/des.png ./data/skokloster-castle/`
 * `python run_dfvs.py ./data/skokloster-castle`
 * `./make_video.sh ./data/skokloster-castle && ./plot.py ./data/skokloster-castle` 
